@@ -41,7 +41,7 @@ This project addresses these challenges by integrating **contextualized word rep
 ## 🏗️ System Architecture
 The model follows a **multi-layer neural architecture**:
 <p align="center">
-  <img src="Image/NLP_Architecture.png" alt="Model Architecture" width="700">
+  <img src="Image/NLP_Architecture.png" alt="Model Architecture" width="400">
 </p>
 
 
