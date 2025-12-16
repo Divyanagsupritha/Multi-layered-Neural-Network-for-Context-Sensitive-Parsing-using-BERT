@@ -77,7 +77,7 @@ The proposed model was trained and evaluated on the **Universal Dependencies Eng
   - Demonstrates strong syntactic structure learning using contextual embeddings
 
 <p align="center">
-  <img src="Images/training_loss.png" alt="Training Loss Curve" width="500">
+  <img src="Image/training_loss.png" alt="Training Loss Curve" width="500">
 </p>
 
 ---
@@ -85,7 +85,7 @@ The proposed model was trained and evaluated on the **Universal Dependencies Eng
 ### 🔹 Qualitative Results (Dependency Tree Visualization)
 
 <p align="center">
-  <img src="Images/dependency_example1.png" width="500">
+  <img src="Image/dependency_example1.png" width="500">
 </p>
 
 **Example Sentence:**  
@@ -98,7 +98,7 @@ The proposed model was trained and evaluated on the **Universal Dependencies Eng
 ---
 
 <p align="center">
-  <img src="Images/dependency_example2.png" width="500">
+  <img src="Image/dependency_example2.png" width="500">
 </p>
 
 **Example Sentence:**  
@@ -113,7 +113,7 @@ The proposed model was trained and evaluated on the **Universal Dependencies Eng
 ## 📈 Dataset Analysis
 
 <p align="center">
-  <img src="Images/head_distribution.png" width="500">
+  <img src="Image/head_distribution.png" width="500">
 </p>
 
 - Dataset shows **imbalanced head index distribution**
