@@ -40,7 +40,10 @@ This project addresses these challenges by integrating **contextualized word rep
 
 ## 🏗️ System Architecture
 The model follows a **multi-layer neural architecture**:
-![Architecture Diagram](Image/NLP_Architecture.png)
+<p align="center">
+  <img src="Image/NLP_Architecture.png" alt="Model Architecture" width="700">
+</p>
+
 
 1. **Tokenization**
    - `BertTokenizerFast`
@@ -59,3 +62,5 @@ The model follows a **multi-layer neural architecture**:
    - Predicts dependency head indices
 
 ---
+
+
