@@ -62,5 +62,84 @@ The model follows a **multi-layer neural architecture**:
    - Predicts dependency head indices
 
 ---
+## 📊 Results and Evaluation
 
+The proposed model was trained and evaluated on the **Universal Dependencies English Web Treebank** dataset for **15 epochs**.
+
+### 🔹 Quantitative Results
+- **Training Loss**
+  - Initial loss: **14.4520**
+  - Final loss: **1.6555**
+  - Indicates stable convergence and effective learning
+
+- **Head Prediction Accuracy**
+  - Achieved **66% accuracy**
+  - Demonstrates strong syntactic structure learning using contextual embeddings
+
+<p align="center">
+  <img src="Images/training_loss.png" alt="Training Loss Curve" width="500">
+</p>
+
+---
+
+### 🔹 Qualitative Results (Dependency Tree Visualization)
+
+<p align="center">
+  <img src="Images/dependency_example1.png" width="500">
+</p>
+
+**Example Sentence:**  
+*“He ran to the store before it closed quickly.”*
+
+- Correctly links long-range dependencies
+- Captures adverbial modification
+- Preserves syntactic hierarchy
+
+---
+
+<p align="center">
+  <img src="Images/dependency_example2.png" width="500">
+</p>
+
+**Example Sentence:**  
+*“If it rains tomorrow, we will stay indoor and watch movies.”*
+
+- Handles conditional clauses
+- Captures coordinated verbs
+- Maintains subject–verb consistency
+
+---
+
+## 📈 Dataset Analysis
+
+<p align="center">
+  <img src="Images/head_distribution.png" width="500">
+</p>
+
+- Dataset shows **imbalanced head index distribution**
+- Majority of dependencies lie in lower-indexed heads
+- Model generalizes well despite imbalance
+
+---
+
+## ✅ Conclusion
+
+This project successfully demonstrates a **context-sensitive deep neural dependency parser** by combining:
+- **BERT contextual embeddings**
+- **BiLSTM sequence modeling**
+- **Linear regression prediction layers**
+
+The steady decrease in training loss and **66% head prediction accuracy** confirm the effectiveness of integrating **context-aware embeddings with deep neural architectures** for syntactic parsing.
+
+The qualitative visualizations further highlight the model’s ability to handle **complex sentence structures**, including coordination, subordination, and long-range dependencies.
+
+---
+
+## 🔮 Future Work
+- Extend to **fully labeled dependency parsing**
+- Integrate **biaffine attention mechanisms**
+- Evaluate on **multilingual UD datasets**
+- Optimize for **real-time and low-resource environments**
+
+---
 
